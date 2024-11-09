@@ -1,0 +1,182 @@
+.style__switcher {
+    position: fixed;
+    right: -200px;
+    top: 10%;
+    width: 200px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.show-switcher {
+    right: 0;
+}
+
+.style__switcher-toggler {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    background-color: var(--first-color);
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: -3px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.theme__toggler {
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    background-color: var(--first-color);
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: -3px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.style__switcher-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.style__switcher-close {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 24px;
+}
+
+.skills__icons-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+    margin-top: 40px; 
+}
+
+.skills__icon-html,
+.skills__icon-css,
+.skills__icon-js,
+.skills__icon-react,
+.skills__icon-node,
+.skills__icon-mongo,
+.skills__icon-express,
+.skills__icon-tailwind {
+    transition: transform 0.3s ease;
+    margin: 10px 120px;
+}
+
+.skills__icon-html {
+    height: 100px;
+    margin: 0 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.skills__icon-css {
+    height: 100px;
+    margin: 0 120px;
+    border-radius: 10px;
+
+}
+
+.skills__icon-js {
+    height: 100px;
+    margin: 0 120px;
+    border-radius: 10px;
+}
+
+
+.skills__icon-react {
+    height: 90px;
+    margin: 0 120px;
+    background-color: hsl(0, 0%, 7%);
+    border-radius: 10px;
+}
+
+.skills__icon-node {
+    height: 80px;
+    margin: 0 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.skills__icon-mongo {
+    height: 80px;
+    margin: 0 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.skills__icon-express {
+    height: 80px;
+    margin: 0 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}   
+
+.skills__icon-tailwind {
+    height: 80px;
+    margin: 0 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.skills__icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.skills__icon-title {
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.typewriter__text{
+    margin-top: 80px;
+    color: var(--first-color);
+}
+
+.heading__title {
+    margin-top: 100px;
+    font-size: var(--h2-font-size);
+    text-align: center;
+}
+
+.skills__icon-html:hover,
+.skills__icon-css:hover,
+.skills__icon-js:hover,
+.skills__icon-react:hover,
+.skills__icon-node:hover,
+.skills__icon-mongo:hover,
+.skills__icon-express:hover,
+.skills__icon-tailwind:hover {  
+    transform: scale(1.05);
+    position: relative;
+    z-index: 1;
+}
+
+.skills__icon-html:hover { box-shadow: 0 0 10px orangered; }
+.skills__icon-css:hover { box-shadow: 0 0 10px blue; }
+.skills__icon-js:hover { box-shadow: 0 0 10px yellow; }
+.skills__icon-react:hover { box-shadow: 0 0 10px skyblue; }
+.skills__icon-node:hover { box-shadow: 0 0 50px #1eb610; }
+.skills__icon-mongo:hover { box-shadow: 0 0 50px #278418; }
+.skills__icon-express:hover { box-shadow: 0 0 50px gray; }
+.skills__icon-tailwind:hover { box-shadow: 0 0 30px #38bdf8; }
+
