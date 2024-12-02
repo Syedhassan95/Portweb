@@ -150,7 +150,7 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaCode />,
-    year: '2018 - PRESENT',
+    year: 'PRESENT',
     title: 'Web Developer <span> IN MERN </span>',
     desc: 'Skilled and proficient entry-level website designer with tremendous dedication to work and a demonstrated ability in customer administration and satisfaction.',
            
@@ -160,7 +160,7 @@ export const resume = [
     id: 2,
     category: 'experience',
     icon: <FaCode />,
-    year: '2013 - 2018',
+    year: 'PRESENT',
     title: 'MERN STACK DEV <span> From KG Coding </span>',
     desc: 'I am a MERN Stack Developer with a passion for creating web applications that are both functional and user-friendly.',
   },
@@ -178,18 +178,18 @@ export const resume = [
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Graduation Degree (BCA) <span> Sant Gadge Baba University </span>',
-    desc: 'A Bachelor of Computer Applications (BCA) is a three-year undergraduate degree that prepares students for careers in the information technology (IT) field:',
+    year: 'PRESENT',
+    title: 'Masters in Computer Applications (MCA) <span> Sant Gadge Baba University</span>',
+    desc: ' A Master of Computer Applications (MCA) is a postgraduate degree that prepares students for careers in computer science and technology',
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree (MCA) <span> Sant Gadge Baba University </span>',
-    desc: 'A Master of Computer Applications (MCA) is a postgraduate degree that prepares students for careers in computer science and technology',
+    year: 'COMPLETED 2024',
+    title: 'A Bachelor of Computer Applications (BCA) <span> Sant Gadge Baba University</span>',
+    desc: 'BCA is a three-year undergraduate degree that prepares students for careers in the information technology (IT) field',
   },
 
   // {

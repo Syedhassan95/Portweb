@@ -4,7 +4,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media  screen and (max-width: 400px) {
     .grid{
         gap: 20px;
     }
@@ -139,18 +139,17 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     .home {
         grid-template-columns: 1fr;
         justify-items: center;
         row-gap: 10px;
     }
-
     .color__block {
         display: none;
     }
 
-    .home__img {
+    .home__img{
         width: 270px;
         height: 270px;
         border-radius: 50%;
@@ -283,4 +282,4 @@
     .stats {
         grid-template-columns: 1fr;
     }
-}
+  }
