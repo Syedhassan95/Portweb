@@ -82,12 +82,6 @@ export const personalInfo = [
     description: 'Indian',
   },
 
-  // {
-  //   id: 5,
-  //   title: 'Freelance : ',
-  //   description: 'Available',
-  // },
-
   {
     id: 6,
     title: 'Address : ',
@@ -106,11 +100,6 @@ export const personalInfo = [
     description: 'sh764998@gmail.com',
   },
 
-  // {
-  //   id: 9,
-  //   title: 'Skype : ',
-  //   description: 'steve.milner',
-  // },
 
   {
     id: 10,
@@ -131,18 +120,6 @@ export const stats = [
     no: '4+',
     title: 'Medals won <br /> in Events',
   },
-
-  //  {
-  //    id: 3,
-  //    no: '81+',
-  //    title: 'Happy <br /> Customers',
-  //  },
-
-  // {
-  //   id: 4,
-  //   no: '53+',
-  //   title: ' Awards <br /> Won',
-  // },
 ];
 
 export const resume = [
@@ -165,15 +142,7 @@ export const resume = [
     desc: 'I am a MERN Stack Developer with a passion for creating web applications that are both functional and user-friendly.',
   },
 
-  // {
-  //   id: 3,
-  //   category: 'experience',
-  //   icon: <FaBriefcase />,
-  //   year: '2005 - 2013',
-  //   title: 'Consultant <span> Videohive </span>',
-  //   desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  // },
-
+  
   {
     id: 4,
     category: 'education',
@@ -192,14 +161,6 @@ export const resume = [
     desc: 'BCA is a three-year undergraduate degree that prepares students for careers in the information technology (IT) field',
   },
 
-  // {
-  //   id: 6,
-  //   category: 'education',
-  //   icon: <FaGraduationCap />,
-  //   year: '2009',
-  //   title: 'Bachelor Degree <span> Tunis High School </span>',
-  //   desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
-  // },
 ];
 
 export const skills = [
